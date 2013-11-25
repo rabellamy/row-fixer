@@ -1,6 +1,3 @@
-row-fixer
-=========
-
 The Problem
 ===========
 
