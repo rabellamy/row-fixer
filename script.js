@@ -1,21 +1,16 @@
 (function ($) {
-    "use strict";
-    $(function () {        
-        /* User sets up this portion */
+    "use strict";        
+    $.fn.fixRows = function(config) {
+        var targets = (config && config.targets) || [];
+        var lineupRows = [];
         
-        var lineupRows  = [
-            $(".rectangle h1"),
-            $(".rectangle h3"),
-            $(".rectangle .inner-div p")
-        ];
+        for (var i = 0; i < targets.length; i++) {
+            lineupRows.push(this.find(targets[i]));
+        }
         
-        $(window).on("load resize", setHeights);
-        setHeights();
-        
-        function setHeights(event) {
+        if (lineupRows.length > 0) {
             lineUpHeights(lineupRows);
-        }                
-        /* End of user setup */
+        }
         
         function lineUpHeights(lineupRows) {
             var currentRow = [], $lineupRowsVisible = [], $thisVisibleRow, newRow, currentRowTopPosition, 
@@ -111,6 +106,5 @@
                 setMaxHeights(row);
             }        
         }
-    });
-    
+    }
 })(jQuery.noConflict());
