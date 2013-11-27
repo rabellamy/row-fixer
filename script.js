@@ -23,7 +23,6 @@
             endIndexOfThisRow, numberOfLineupItemsLeft
 
             if (!lineupRows || lineupRows.length === 0) {
-                console.log("lineupRows was null or its length was zero");
                 return;
             }            
             
