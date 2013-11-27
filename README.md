@@ -68,3 +68,15 @@ Example Code
 ============
 
 Open test.html in your browser. You will see a responsive grid that goes from four column to three column to two column to one column. There are three items in each container that need to line up with other items on the page. These are the title, subtitle, and paragraph. Some of the items are invisible on certain viewports. You can see that these items are in different containers, yet they line up correctly regardless of visibility and number of columns.
+
+Extra
+=====
+
+If you are concerned about people who do not have JavaScript turned on, you could set explicit heights on the selectors, with scroll-bars in case of overflow:
+
+.my-container h1, .my-container h3, .my-container p {
+    height: 250px;
+    overflow: scroll;
+}
+
+This plugin will override these settings.
