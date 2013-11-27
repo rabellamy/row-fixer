@@ -74,9 +74,11 @@ Extra
 
 If you are concerned about people who do not have JavaScript turned on, you could set explicit heights on the selectors, with scroll-bars in case of overflow:
 
-.my-container h1, .my-container h3, .my-container p {
-    height: 250px;
-    overflow: scroll;
-}
+    .my-container h1, 
+    .my-container h3, 
+    .my-container p {
+        height: 250px;
+        overflow: scroll;
+    }
 
-This plugin will override these settings.
+This plugin will then override these settings if JavaScript is turned on.
