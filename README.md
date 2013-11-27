@@ -41,7 +41,7 @@ This jQuery plugin tries to figure out which elements belong on the same row. Th
 Example Code
 ============
 
-The example code here uses a responsive grid that goes from four column to three column to two column to one column. There are three items in each container that need to line up with other items on the page. These are the title, subtitle, and paragraph. Some of the items are invisible on certain viewports. You can see that these items are in different containers yet line up correctly regardless of visibility and number of columns.
+Open test.html in your browser. You will see a responsive grid that goes from four column to three column to two column to one column. There are three items in each container that need to line up with other items on the page. These are the title, subtitle, and paragraph. Some of the items are invisible on certain viewports. You can see that these items are in different containers, yet they line up correctly regardless of visibility and number of columns.
 
 Example Usage
 =============
