@@ -38,13 +38,10 @@ The Solution
 
 This jQuery plugin tries to figure out which elements belong on the same row. Then for each row, it finds the maximum height and assigns it to every element on the row. This allows you to have dynamic and also responsive content, while ensuring that the inner elements you specify will always stay aligned.
 
-Example Code
-============
-
-Open test.html in your browser. You will see a responsive grid that goes from four column to three column to two column to one column. There are three items in each container that need to line up with other items on the page. These are the title, subtitle, and paragraph. Some of the items are invisible on certain viewports. You can see that these items are in different containers, yet they line up correctly regardless of visibility and number of columns.
-
 Example Usage
 =============
+
+In the above example html, we want h1 tags inside the "my-container" element to line up with h1 tags inside other "my-container" elements. The same goes for h3 tags with h3 tags, and p tags with p tags.
 
 Create a simple config object with a property called "targets". This property will be an array that contains selectors for the elements that need to be resized, from highest vertical position on the page to lowest vertical position:
 
@@ -65,3 +62,9 @@ Then call the plugin's "fixRows" function on the containers of those targets, pa
     $(window).on("load resize", function() { 
         $containers.fixRows(config)
     });
+
+
+Example Code
+============
+
+Open test.html in your browser. You will see a responsive grid that goes from four column to three column to two column to one column. There are three items in each container that need to line up with other items on the page. These are the title, subtitle, and paragraph. Some of the items are invisible on certain viewports. You can see that these items are in different containers, yet they line up correctly regardless of visibility and number of columns.
