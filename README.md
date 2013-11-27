@@ -47,7 +47,7 @@ Create a simple config object with a property called "targets". This property wi
 
     var config = {
          "targets" : [
-             'h1', 'h3', '.inner-div p'
+             'h1', 'h3', 'p'
          ]
      }
      
