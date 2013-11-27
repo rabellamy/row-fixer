@@ -16,6 +16,16 @@
     display: block;
 }
 
+/* Default settings in case javascript is not turned on */
+h1, h3, .inner-div p{
+    height: 250px;
+    overflow: scroll;
+}
+
+h1, h3 {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 1200px) {
     .rectangle {
         width: 30.33333333333333%;

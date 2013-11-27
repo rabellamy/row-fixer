@@ -2,12 +2,11 @@
     "use strict";
     $(function () {        
         /* User sets up this portion */
-        var lineupGroupSelector = ".rectangle";
         
         var lineupRows  = [
-            $(lineupGroupSelector + " h1"),
-            $(lineupGroupSelector + " h3"),
-            $(lineupGroupSelector + " .inner-div"),
+            $(".rectangle h1"),
+            $(".rectangle h3"),
+            $(".rectangle .inner-div p")
         ];
         
         $(window).on("load resize", setHeights);
@@ -30,7 +29,7 @@
             
             // Convert each element to a jQuery object, and filter out invisible elements because they will have zero heights
             for (i = 0; i < lineupRows.length; i++) {
-                $thisVisibleRow = lineupRows[i].filter(":visible");
+                $thisVisibleRow = lineupRows[i].filter(":visible").css({"overflow" : "visible"});
                 $lineupRowsVisible.push($thisVisibleRow);
             }
                         
@@ -78,7 +77,7 @@
             var maxHeight, thisHeight, j;
 
             currentRow.forEach(function (e) {
-                e.css("height", "auto");
+                e.css( { "height" : "auto" } );
             });
 
             maxHeight = currentRow[0].height();
@@ -91,9 +90,12 @@
                 }
             }
 
-            // set the max on all in the row
+            // Set the max on all in the row. Overflow-visible is useful if we are
+            // setting default css heights (as a fallback for JavaScript being turned off)
+            // with scroll bars for overflow. We don't want to see those scroll bars if
+            // this code is setting heights.
             for (j = 0; j < currentRow.length; j++) {
-                currentRow[j].css("height", maxHeight);
+                currentRow[j].css({ "height" : maxHeight });
             }
         }
         
