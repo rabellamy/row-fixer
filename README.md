@@ -5,7 +5,10 @@ Sometimes you want different elements on the page to line up with each other. If
 
     <div class="my-container">
         <h1>Heading That Needs to Be Aligned With Other Headings</h1>
-        <h3>Subtitle That Needs to Be Aligned With Other Subtitles</h3>
+        <h3>
+            Subtitle That Needs to Be Aligned With Other Subtitles
+            Subtitle That Needs to Be Aligned With Other Subtitles
+        </h3>
         <p>
             Paragraph that needs to be aligned with other paragraphs.
             Paragraph that needs to be aligned with other paragraphs.
