@@ -3,7 +3,7 @@ The Problem
 
 Sometimes you want different elements on the page to line up with each other. If these elements are buried inside container elements, usually CSS is not enough if the content is dynamic. Consider the following HTML:
 
-    <div>
+    <div class="my-container">
         <h1>Heading That Needs to Be Aligned With Other Headings</h1>
         <h3>Subtitle That Needs to Be Aligned With Other Subtitles</h3>
         <p>
@@ -13,7 +13,7 @@ Sometimes you want different elements on the page to line up with each other. If
         </p>
     </div>
     
-    <div>
+    <div class="my-container">
         <h1>Heading That Needs to Be Aligned With Other Headings</h1>
         <h3>Subtitle That Needs to Be Aligned With Other Subtitles</h3>
         <p>
@@ -33,9 +33,32 @@ You might run into this situation when pulling content from a CMS (such as a pro
 The Solution
 ============
 
-This JavaScript code tries to figure out which elements belong on the same row. Then for each row, it finds the maximum height and assigns it to every element on the row. This allows you to have dynamic and also responsive content, while ensuring that the inner elements you specify will always stay aligned.
+This jQuery plugin tries to figure out which elements belong on the same row. Then for each row, it finds the maximum height and assigns it to every element on the row. This allows you to have dynamic and also responsive content, while ensuring that the inner elements you specify will always stay aligned.
 
 Example Code
 ============
 
 The example code here uses a responsive grid that goes from four column to three column to two column to one column. There are three items in each container that need to line up with other items on the page. These are the title, subtitle, and paragraph. Some of the items are invisible on certain viewports. You can see that these items are in different containers yet line up correctly regardless of visibility and number of columns.
+
+Example Usage
+=============
+
+Create a simple config object with a property called "targets". This property will be an array that contains selectors for the elements that need to be resized, from highest vertical position on the page to lowest vertical position:
+
+    var config = {
+         "targets" : [
+             'h1', 'h3', '.inner-div p'
+         ]
+     }
+     
+Then call the plugin's "fixRows" function on the containers of those targets, passing the config option:
+     
+    var $containers = $('.my-container');
+    
+    // Initial row-fixing
+    $containers.fixRows(config);
+    
+    // Fixing rows may be useful after these events as well
+    $(window).on("load resize", function() { 
+        $containers.fixRows(config)
+    });
