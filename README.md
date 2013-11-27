@@ -72,7 +72,7 @@ Open test.html in your browser. You will see a responsive grid that goes from fo
 Extra
 =====
 
-If you are concerned about people who do not have JavaScript turned on, you could set explicit heights on the selectors, with scroll-bars in case of overflow:
+If you are concerned about people who do not have JavaScript turned on, you could set explicit heights on the elements that need to be lined up, with scroll-bars in case of overflow:
 
     .my-container h1, 
     .my-container h3, 
