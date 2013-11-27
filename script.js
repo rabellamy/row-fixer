@@ -27,9 +27,9 @@
                 return;
             }            
             
-            // Convert each element to a jQuery object, and filter out invisible elements because they will have zero heights
+            // Filter out invisible elements because they will have zero heights
             for (i = 0; i < lineupRows.length; i++) {
-                $thisVisibleRow = lineupRows[i].filter(":visible").css({"overflow" : "visible"});
+                $thisVisibleRow = lineupRows[i].filter(":visible");
                 $lineupRowsVisible.push($thisVisibleRow);
             }
                         
@@ -95,7 +95,7 @@
             // with scroll bars for overflow. We don't want to see those scroll bars if
             // this code is setting heights.
             for (j = 0; j < currentRow.length; j++) {
-                currentRow[j].css({ "height" : maxHeight });
+                currentRow[j].css({ "overflow" : "visible", "height" : maxHeight });
             }
         }
         
