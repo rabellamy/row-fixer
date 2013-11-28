@@ -11,7 +11,7 @@ To demonstrate, you want this:
      ---------------------       ---------------------       ---------------------
     |      Header 1       |     |      Header 2       |     |      Header 3       |
     |                     |     |                     |     |                     |
-    |     My Subitle      |     |      My Longer      |     |       My Very       |
+    |     My Subtitle     |     |      My Longer      |     |       My Very       |
     |                     |     |      Subtitle       |     |      Very Very      |
     |                     |     |                     |     |      Very Long      |
     |                     |     |                     |     |      Subtitle       |
@@ -30,7 +30,7 @@ But you get this:
      ---------------------       ---------------------       ---------------------
     |      Header 1       |     |      Header 2       |     |      Header 3       |
     |                     |     |                     |     |                     |
-    |     My Sutbitle     |     |      My Longer      |     |       My Very       |
+    |     My Subtitle     |     |      My Longer      |     |       My Very       |
     |                     |     |      Subtitle       |     |      Very Very      | 
     | My longest          |     |                     |     |      Very Long      |
     | paragraph text My   |     | My short paragraph  |     |      Subtitle       |
