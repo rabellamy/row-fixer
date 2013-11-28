@@ -41,9 +41,9 @@ But you get this:
     | text                |                                  ---------------------
      ---------------------                                 
 
-You might consider giving a single height to all of the elements that need to line up. This would be a height that you assume is big enough to contain them. But if the elements endsup having very little content, that height may be too big and look ridiculous. And if the content ever exceeds that height, you would need to have a vertical scroll on the elements, which can look ugly.
+You might consider giving a single height to all of the elements that need to line up. This would be a height that you assume is big enough to contain them. But if the elements end up having very little content, that height may be too big and look ridiculous. And if the content ever exceeds that height, you would need to have a vertical scroll on the elements, which can look ugly.
 
-You might run into this situation when pulling content from a CMS (such as a product on a product-listing page). You might not be able to change the html source order of the content in order to line up certain inner elements with another piece of content (by using tables, perhaps). And even if you could change the source order, this would probably cause a problem when making the content responsive (and would probably break any styles you need on the containers of these elements).
+You might run into this situation when pulling dynamic content from a Content Management System (such as a product on a product-listing page). You might not be able to change the html source order of the content in order to line up certain inner elements with another piece of content (by using tables, perhaps). And even if you could change the source order, this would probably cause a problem when making the content responsive (and would probably break any styles you need on the containers of these elements).
 
 The Solution (in a nutshell)
 ============================
