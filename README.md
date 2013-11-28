@@ -1,7 +1,7 @@
 The Problem
 ===========
 
-Sometimes you want different elements on the page to line up with each other. If these elements are in separate containers and they have dynamic content, then CSS is usually not enough.
+Sometimes you want different elements on a web page to line up with each other. If these elements are in separate containers and they have dynamic content, then CSS is usually not enough.
 
 Example Diagram
 ===============
