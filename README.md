@@ -29,14 +29,18 @@ Sometimes you want different elements on the page to line up with each other. If
         </p>
     </div>
     
-If you wanted the p tag to line up with other p tags on the page, and their content is dynamic, you might have to explicitly set a height on all of them that is big enough to contain them. That height may be too big and look ridiculous. And if the height is ever too small, you would need to have a vertical scroll on the element which can look ugly.
+As implied by the content above, you would like the <h1>, <h3>, and <p> elements inside of one "my-container" div to line up with other <h1>, <h3>, and <p> elements inside of other "my-container" div's.
 
-You might run into this situation when pulling content from a CMS (such as a product on a product-listing page). You would not want or be able to change the html source order in order to line up certain elements. And even if you could, this would probably cause a problem when making the content responsive.
+If the content inside those elements is dynamic, you might consider giving them all the same height that you assume is big enough to contain them. That height may be too big and look ridiculous if you have content of very different lenghts. And if the height is ever too small, you would need to have a vertical scroll on the elements, which can look ugly.
+
+You might run into this situation when pulling content from a CMS (such as a product on a product-listing page). You might not be able to change the html source order of the content in order to line up certain inner elements with another piece of content. And even if you could change the source order, this would probably cause a problem when making the content responsive (and would probably break any styles you need on the element that contains those elements, i.e. "my-container" in the example above).
 
 The Solution
 ============
 
-This jQuery plugin tries to figure out which elements belong on the same row. Then for each row, it finds the maximum height and assigns it to every element on the row. This allows you to have dynamic and also responsive content, while ensuring that the inner elements you specify will always stay aligned.
+This jQuery plugin tries to figure out which elements are on the same row. Then for each row, it finds the maximum height and assigns it to every element on the row. This allows you to have dynamic and also responsive content, while ensuring that the inner elements you specify will always stay aligned.
+
+Let's say you tell the plugin that all <p> elements inside "my-container" need to be aligned. This plugin then goes through all of those <p> elements and finds their vertical position. <p> elements whose tops are at the same vertical position (plus/minus some small threshold) are considered to belong to same row. The plugin then finds the maximum height of all <p> tags in a row, and assigns that maximum height to every <p> in that row so that they all now begin and end at the same place.
 
 Example Usage
 =============
