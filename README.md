@@ -29,7 +29,7 @@ Sometimes you want different elements on the page to line up with each other. If
         </p>
     </div>
     
-As implied by the content above, you would like the <h1>, <h3>, and <p> elements inside of one "my-container" div to line up with other <h1>, <h3>, and <p> elements inside of other "my-container" div's.
+As implied by the content above, you would like the h1, h3, and p elements inside of one "my-container" div to line up with other h1, h3, and p elements inside of other "my-container" div's.
 
 If the content inside those elements is dynamic, you might consider giving them all the same height that you assume is big enough to contain them. That height may be too big and look ridiculous if you have content of very different lenghts. And if the height is ever too small, you would need to have a vertical scroll on the elements, which can look ugly.
 
@@ -40,7 +40,7 @@ The Solution
 
 This jQuery plugin tries to figure out which elements are on the same row. Then for each row, it finds the maximum height and assigns it to every element on the row. This allows you to have dynamic and also responsive content, while ensuring that the inner elements you specify will always stay aligned.
 
-Let's say you tell the plugin that all <p> elements inside "my-container" need to be aligned. This plugin then goes through all of those <p> elements and finds their vertical position. <p> elements whose tops are at the same vertical position (plus/minus some small threshold) are considered to belong to same row. The plugin then finds the maximum height of all <p> tags in a row, and assigns that maximum height to every <p> in that row so that they all now begin and end at the same place.
+Let's say you tell the plugin that all p elements inside "my-container" need to be aligned. This plugin then goes through all of those p elements and finds their vertical position. p elements whose tops are at the same vertical position (plus/minus some small threshold) are considered to belong to same row. The plugin then finds the maximum height of all p tags in a row, and assigns that maximum height to every p in that row so that they all now begin and end at the same place.
 
 Example Usage
 =============
