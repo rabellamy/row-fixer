@@ -75,13 +75,13 @@ This plugin will go through all of those h1 elements and find their vertical pos
 Example Usage
 =============
 
-In the above example html, we want h1 tags inside the "my-container" element to line up with h1 tags inside other "my-container" elements. The same goes for h3 tags with h3 tags, and p tags with p tags.
+In the above example html, we want h1 tags inside the "my-container" element to line up with h1 tags inside other "my-container" elements. The same goes for the p tags with p tags.
 
 Create a simple config object with a property called "targets". This property will be an array that contains selectors for the elements that need to be resized, from highest vertical position on the page to lowest vertical position:
 
     var config = {
          "targets" : [
-             'h1', 'h3', 'p'
+             'h1', 'p'
          ]
      }
      
@@ -108,8 +108,7 @@ Extra
 
 If you are concerned about people who do not have JavaScript turned on, you could set explicit heights on the elements that need to be lined up, with scroll-bars in case of overflow:
 
-    .my-container h1, 
-    .my-container h3, 
+    .my-container h1,
     .my-container p {
         height: 250px;
         overflow: scroll;
