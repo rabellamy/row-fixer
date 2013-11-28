@@ -8,38 +8,38 @@ Example Diagram
 
 To demonstrate, you want this:
 
-     ---------------------     ---------------------     ---------------------
-    |      Header 1       |   |      Header 2       |   |      Header 3       |
-    |                     |   |                     |   |                     |
-    |     My Subitle      |   |      My Longer      |   |       My Very       |
-    |                     |   |      Subtitle       |   |      Very Very      |
-    |                     |   |                     |   |      Very Long      |
-    |                     |   |                     |   |      Subtitle       |
-    |                     |   |                     |   |                     |
-    | My longest          |   | My short paragraph  |   | My paragraph text   |
-    | paragraph text My   |   | text                |   | My paragraph text   |
-    | longest paragraph   |   |                     |   | My paragraph text   |  
-    | text My longest     |   |                     |   |                     |
-    | paragraph text My   |   |                     |   |                     | 
-    | longest paragraph   |   |                     |   |                     | 
-    | text                |   |                     |   |                     |
-     ---------------------     ---------------------     ---------------------
+     ---------------------       ---------------------       ---------------------
+    |      Header 1       |     |      Header 2       |     |      Header 3       |
+    |                     |     |                     |     |                     |
+    |     My Subitle      |     |      My Longer      |     |       My Very       |
+    |                     |     |      Subtitle       |     |      Very Very      |
+    |                     |     |                     |     |      Very Long      |
+    |                     |     |                     |     |      Subtitle       |
+    |                     |     |                     |     |                     |
+    | My longest          |     | My short paragraph  |     | My paragraph text   |
+    | paragraph text My   |     | text                |     | My paragraph text   |
+    | longest paragraph   |     |                     |     | My paragraph text   |  
+    | text My longest     |     |                     |     |                     |
+    | paragraph text My   |     |                     |     |                     | 
+    | longest paragraph   |     |                     |     |                     | 
+    | text                |     |                     |     |                     |
+     ---------------------       ---------------------       ---------------------
 
 But you get this:
 
-     ---------------------     ---------------------     ---------------------
-    |      Header 1       |   |      Header 2       |   |      Header 3       |
-    |                     |   |                     |   |                     |
-    |     My Sutbitle     |   |      My Longer      |   |       My Very       |
-    |                     |   |      Subtitle       |   |      Very Very      | 
-    | My longest          |   |                     |   |      Very Long      |
-    | paragraph text My   |   | My short paragraph  |   |      Subtitle       |
-    | longest paragraph   |   | text                |   |                     |                   
-    | text My longest     |    ---------------------    | My paragraph text   |
-    | paragraph text My   |                             | My paragraph text   |
-    | longest paragraph   |                             | My paragraph text   |
-    | text                |                              ---------------------
-     ---------------------                               
+     ---------------------       ---------------------       ---------------------
+    |      Header 1       |     |      Header 2       |     |      Header 3       |
+    |                     |     |                     |     |                     |
+    |     My Sutbitle     |     |      My Longer      |     |       My Very       |
+    |                     |     |      Subtitle       |     |      Very Very      | 
+    | My longest          |     |                     |     |      Very Long      |
+    | paragraph text My   |     | My short paragraph  |     |      Subtitle       |
+    | longest paragraph   |     | text                |     |                     |                   
+    | text My longest     |      ---------------------      | My paragraph text   |
+    | paragraph text My   |                                 | My paragraph text   |
+    | longest paragraph   |                                 | My paragraph text   |
+    | text                |                                  ---------------------
+     ---------------------                                 
 
 You might consider giving a single height to all of the elements that need to line up. This would be a height that you assume is big enough to contain them. But that height may be too big and look ridiculous if you have dynamic content that could be of very different lengths (like above). And if the height you gave is ever too small, you would need to have a vertical scroll on the elements, which can look ugly.
 
