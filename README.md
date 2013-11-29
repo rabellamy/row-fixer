@@ -47,7 +47,7 @@ Let's say you try to solve this problem by changing the html source order so tha
 The Solution (in a nutshell)
 ============================
 
-- Figure out which elements belong on the same row.
+- Using JavaScript, figure out which elements belong on the same row.
 - Find the height of the biggest one in the row.
 - Set that max height to all of the elements in that row.
 
