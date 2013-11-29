@@ -40,9 +40,13 @@ But you get this:
 
 You might consider assigning a single height to all of the elements that need to line up with each other. But if the elements end up having very little content, that height may be too big and look ridiculous. And if the content ever exceeds that height, you would need to have a vertical scroll on the elements, which can look ugly.
 
-This situation can occur, for example, when pulling dynamic content from a Content Management System (such as a product for a product-listing page). You may be placing that information into a pre-defined grid system, in which case the container you are placing it into prevents you from lining things up across several containers.
-
 Let's say you try to solve this problem by changing the html source order so that you place h1's next to h1's, p's next to p's, etc. You could place these elements in tables or use "display: inline-block" to line them up. Aside from the normal problems inherent to these methods, you would probably have to resort to tricks to make it appear as though each h1 and p belong to a single container. And you will probably have a hard time making your content responsive.
+
+When Might You Have This Problem?
+=================================
+
+This situation can occur, for example, when pulling dynamic content from a Content Management System (such as a product for a product-listing page). You may be placing that information into a pre-defined grid system, in which case the container you are placing it into prevents you from lining things up across several containers. 
+
 
 The Solution (in a nutshell)
 ============================
