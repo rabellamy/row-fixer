@@ -19,7 +19,7 @@
 /* Default settings in case javascript is not turned on */
 h1, h3, .inner-div p{
     height: 250px;
-    overflow-y: scroll;
+    overflow: scroll;
 }
 
 h1, h3 {

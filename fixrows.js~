@@ -27,7 +27,7 @@
                     console.log(
                         "There are " + groupOfInnerElements.length + " visible inner-elements of type \"" + 
                         targets[i] + "\" while there were " + numberOfInnerElementsPerGroupSoFar +
-                        " visible inner-element of the other types so far. There must be the same number."
+                        " of the other inner-element types so far. There must be the same number."
                         );
                         
                     return;
