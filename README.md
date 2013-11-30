@@ -79,7 +79,7 @@ Example Usage
 
 In the above example html, we want h1 tags inside the "my-container" element to line up with h1 tags inside other "my-container" elements. The same goes for the p tags with p tags.
 
-Create a simple config object with a property called "targets". This property will be an array that contains selectors for the elements that need to be resized, from highest vertical position on the page to lowest vertical position:
+Create a simple config object with a property called "targets". This property will be an array that contains selectors for the elements that need to be resized (in the context of the container), from highest vertical position on the page to lowest vertical position:
 
     var config = {
          "targets" : [
