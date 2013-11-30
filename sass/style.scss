@@ -1,9 +1,11 @@
+@import "partials/base";
+
 * {
     box-sizing : border-box;
     padding: 0;
     margin: 0;
-}  
- 
+}
+
 .rectangle {
     background-color: lightgray;
     border: 2px solid black;
@@ -29,7 +31,7 @@ h1, h3 {
 @media (max-width: 1200px) {
     .rectangle {
         width: 30.33333333333333%;
-    } 
+    }
 
     .rectangle:nth-child(2) {
         display:none;
@@ -39,16 +41,16 @@ h1, h3 {
 @media (max-width: 900px) {
     .rectangle {
         width: 47%;
-    }    
-    
+    }
+
     .rectangle:nth-child(2) {
         display:block;
     }
-    
+
     .rectangle:nth-child(5) {
         display:none;
     }
-    
+
     .rectangle:nth-child(8) {
         display:none;
     }
@@ -57,25 +59,25 @@ h1, h3 {
 @media (max-width: 600px) {
     .rectangle {
         width: 97%;
-    }    
-    
+    }
+
     .rectangle:nth-child(5) {
         display:block;
     }
- 
+
     .rectangle:nth-child(8) {
         display:block;
-    } 
-    
+    }
+
     .rectangle:nth-child(6) {
         display:none;
-    }   
-    
+    }
+
     .rectangle:nth-child(7) {
         display:none;
-    } 
-    
+    }
+
     .rectangle:nth-child(10) {
         display:none;
-    }     
+    }
 }
