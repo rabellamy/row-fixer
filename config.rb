@@ -5,6 +5,7 @@ require 'breakpoint'
 require 'sassy-math'
 require 'toolkit'
 require 'color-schemer'
+require 'sass-globbing'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
