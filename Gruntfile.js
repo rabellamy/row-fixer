@@ -20,37 +20,25 @@ module.exports = function (grunt) {
       }
     },
 
-    // Compass and scss
     compass: {
       options: {
-        bundleExec: true,
-        httpPath: '/',
-        cssDir: 'css',
-        sassDir: 'sass',
-        imagesDir: 'images',
-        javascriptsDir: 'js',
-        fontsDir: 'css/fonts',
-        assetCacheBuster: 'none',
-        require: [
-          'sass-globbing'
-        ]
+        config: 'config.rb',
+        bundleExec: true
       },
       dev: {
         options: {
-          environment: 'development',
-          outputStyle: 'expanded',
-          relativeAssets: true,
-          raw: 'line_numbers = :true\n'
+          environment: 'development'
         }
       },
       dist: {
         options: {
           environment: 'production',
-          outputStyle: 'compact',
+          imagesDir: 'images-min',
           force: true
         }
       }
-    },
+    }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-compass');
