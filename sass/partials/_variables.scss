@@ -1,1 +1,35 @@
 
+
+//////////////
+// Breakpoint
+//////////////
+
+$breakpoint-1: 500px;
+$breakpoint-2: 700px;
+$breakpoint-3: 1000px;
+
+/////////
+// Grid
+/////////
+
+$grids: 1;
+$gutters: 1/3;
+
+$gutter-1: .04;
+
+
+///////////
+// Colors
+///////////
+
+$cs-primary: #0600FF;
+$cs-scheme: 'accented-analogic';
+$cs-hue-offset: 0;
+$cs-brightness-offset: 0;
+$cs-color-model: 'rgb';
+
+$primary: cs-primary();
+$secondary: darken(cs-secondary(), 10%); // too light, darkening this up a bit.
+$tertiary: cs-tertiary();
+$quadrary: cs-quadrary();
+

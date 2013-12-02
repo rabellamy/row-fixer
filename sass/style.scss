@@ -1,15 +1,15 @@
 @import "partials/base";
 
+body {
+  @include single-transition(all 220ms ease-in-out 0s);
+}
+
 .rectangle {
-    background-color: lightgray;
     border: 2px solid black;
     font-size: 16pt;
     text-align: center;
     padding: 20px;
     margin: 1.5%;
-    float: left;
-    width: 22%;
-    display: block;
 }
 
 /* Default settings in case javascript is not turned on */
@@ -22,56 +22,138 @@ h1, h3 {
     margin-bottom: 20px;
 }
 
-@media (max-width: 1200px) {
-    .rectangle {
-        width: 30.33333333333333%;
-    }
-
-    .rectangle:nth-child(2) {
-        display:none;
-    }
+.rectangle-1 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 1, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 1, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 1, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  background-color: tint($primary, 30%);
 }
 
-@media (max-width: 900px) {
-    .rectangle {
-        width: 47%;
-    }
-
-    .rectangle:nth-child(2) {
-        display:block;
-    }
-
-    .rectangle:nth-child(5) {
-        display:none;
-    }
-
-    .rectangle:nth-child(8) {
-        display:none;
-    }
+.rectangle-2 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 2, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 2, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 2, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  background-color: tint($secondary, 35%);
 }
 
-@media (max-width: 600px) {
-    .rectangle {
-        width: 97%;
-    }
+.rectangle-3 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 1, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 3, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 3, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  background-color: tint($tertiary, 40%);
+}
 
-    .rectangle:nth-child(5) {
-        display:block;
-    }
+.rectangle-4 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 2, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 1, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 4, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  background-color: tint(mix($quadrary, $primary, 10%), 45%);
+}
 
-    .rectangle:nth-child(8) {
-        display:block;
-    }
+.rectangle-5 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 1, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 2, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 1, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+}
 
-    .rectangle:nth-child(6) {
-        display:none;
-    }
+.rectangle-6 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 2, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 3, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 2, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+}
 
-    .rectangle:nth-child(7) {
-        display:none;
-    }
+.rectangle-7 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 1, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 1, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 3, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+}
 
-    .rectangle:nth-child(10) {
-        display:none;
-    }
+.rectangle-8 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 2, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 2, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 4, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+}
+
+.rectangle-9 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 1, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 3, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 1, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+}
+
+.rectangle-10 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 2, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 1, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 2, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+}
+
+.rectangle-11 {
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(1, 1, (1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-2) {
+    @include grid-span(1, 2, (1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
+  @include breakpoint($breakpoint-3) {
+    @include grid-span(1, 3, (1 1 1 1), $gutter: $gutter-1, $options: 'right');
+  }
 }
