@@ -3,6 +3,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  *behavior: url('/stylesheets/../behaviors/box-sizing/boxsizing.php');
 }
 
 /* line 36, ../../../../../Library/Ruby/Gems/2.0.0/gems/toolkit-1.3.8/stylesheets/toolkit/_box-sizing.scss */
@@ -10,6 +11,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  *behavior: url('/stylesheets/../behaviors/box-sizing/boxsizing.php');
 }
 
 /* line 4, ../../../../../Library/Ruby/Gems/2.0.0/gems/toolkit-1.3.8/stylesheets/toolkit/_fluid-media.scss */
@@ -31,7 +33,7 @@ body {
   border: 2px solid black;
   font-size: 16pt;
   text-align: center;
-  padding: 20px;
+  padding: .5em;
   margin: 1.5%;
 }
 
@@ -49,9 +51,14 @@ h1, h3 {
 
 /* line 25, ../sass/style.scss */
 .rectangle-1 {
-  background-color: #504cff;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: purple;
 }
-@media (min-width: 500px) {
+@media (min-width: 560px) {
   /* line 25, ../sass/style.scss */
   .rectangle-1 {
     width: 49.01961%;
@@ -64,30 +71,45 @@ h1, h3 {
 @media (min-width: 700px) {
   /* line 25, ../sass/style.scss */
   .rectangle-1 {
-    width: 32.46753%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: right;
+    width: 31.69203%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   /* line 25, ../sass/style.scss */
   .rectangle-1 {
-    width: 24.27184%;
+    width: 23.41598%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 25, ../sass/style.scss */
+  .rectangle-1 {
+    width: 19.48052%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
-    clear: right;
+    margin-left: 35.38961%;
+    clear: none;
   }
 }
 
-/* line 38, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .rectangle-2 {
-  background-color: #5c59dd;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: purple;
 }
-@media (min-width: 500px) {
-  /* line 38, ../sass/style.scss */
+@media (min-width: 560px) {
+  /* line 42, ../sass/style.scss */
   .rectangle-2 {
     width: 49.01961%;
     float: right;
@@ -97,67 +119,97 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 38, ../sass/style.scss */
+  /* line 42, ../sass/style.scss */
   .rectangle-2 {
-    width: 32.46753%;
+    width: 67.94987%;
     float: left;
     margin-right: -100%;
-    margin-left: 33.76623%;
-    clear: right;
+    margin-left: 0%;
+    clear: none;
   }
 }
-@media (min-width: 1000px) {
-  /* line 38, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 42, ../sass/style.scss */
   .rectangle-2 {
-    width: 24.27184%;
+    width: 48.48485%;
     float: left;
     margin-right: -100%;
-    margin-left: 25.24272%;
-    clear: right;
+    margin-left: 27.82369%;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 42, ../sass/style.scss */
+  .rectangle-2 {
+    width: 16.23377%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
   }
 }
 
-/* line 51, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .rectangle-3 {
-  background-color: #6966ff;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: purple;
 }
-@media (min-width: 500px) {
-  /* line 51, ../sass/style.scss */
+@media (min-width: 560px) {
+  /* line 59, ../sass/style.scss */
   .rectangle-3 {
     width: 49.01961%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: right;
+    clear: both;
   }
 }
 @media (min-width: 700px) {
-  /* line 51, ../sass/style.scss */
+  /* line 59, ../sass/style.scss */
   .rectangle-3 {
-    width: 32.46753%;
+    width: 69.65085%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: right;
+    clear: both;
   }
 }
-@media (min-width: 1000px) {
-  /* line 51, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 59, ../sass/style.scss */
   .rectangle-3 {
-    width: 24.27184%;
+    width: 27.54821%;
     float: left;
     margin-right: -100%;
-    margin-left: 50.48544%;
-    clear: right;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 59, ../sass/style.scss */
+  .rectangle-3 {
+    width: 22.72727%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
   }
 }
 
-/* line 64, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .rectangle-4 {
-  background-color: #8380f0;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: purple;
 }
-@media (min-width: 500px) {
-  /* line 64, ../sass/style.scss */
+@media (min-width: 560px) {
+  /* line 76, ../sass/style.scss */
   .rectangle-4 {
     width: 49.01961%;
     float: right;
@@ -167,28 +219,47 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 64, ../sass/style.scss */
+  /* line 76, ../sass/style.scss */
   .rectangle-4 {
-    width: 32.46753%;
+    width: 29.99105%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: right;
+    clear: none;
   }
 }
-@media (min-width: 1000px) {
-  /* line 64, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 76, ../sass/style.scss */
   .rectangle-4 {
-    width: 24.27184%;
+    width: 72.17631%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: right;
+    clear: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 76, ../sass/style.scss */
+  .rectangle-4 {
+    width: 17.85714%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 16.88312%;
+    clear: none;
   }
 }
 
-@media (min-width: 500px) {
-  /* line 77, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
+.rectangle-5 {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: purple;
+}
+@media (min-width: 560px) {
+  /* line 93, ../sass/style.scss */
   .rectangle-5 {
     width: 49.01961%;
     float: left;
@@ -198,28 +269,47 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 77, ../sass/style.scss */
+  /* line 93, ../sass/style.scss */
   .rectangle-5 {
-    width: 32.46753%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 33.76623%;
-    clear: right;
+    width: 31.69203%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
   }
 }
-@media (min-width: 1000px) {
-  /* line 77, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 93, ../sass/style.scss */
   .rectangle-5 {
-    width: 24.27184%;
+    width: 27.54821%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: right;
+    clear: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 93, ../sass/style.scss */
+  .rectangle-5 {
+    width: 21.1039%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 55.51948%;
+    clear: none;
   }
 }
 
-@media (min-width: 500px) {
-  /* line 89, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
+.rectangle-6 {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: red;
+}
+@media (min-width: 560px) {
+  /* line 110, ../sass/style.scss */
   .rectangle-6 {
     width: 49.01961%;
     float: right;
@@ -229,28 +319,47 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 89, ../sass/style.scss */
+  /* line 110, ../sass/style.scss */
   .rectangle-6 {
-    width: 32.46753%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: right;
+    width: 67.94987%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
   }
 }
-@media (min-width: 1000px) {
-  /* line 89, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 110, ../sass/style.scss */
   .rectangle-6 {
-    width: 24.27184%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 25.24272%;
-    clear: right;
+    width: 100.0%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 110, ../sass/style.scss */
+  .rectangle-6 {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: both;
   }
 }
 
-@media (min-width: 500px) {
-  /* line 101, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
+.rectangle-7 {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: blue;
+}
+@media (min-width: 560px) {
+  /* line 127, ../sass/style.scss */
   .rectangle-7 {
     width: 49.01961%;
     float: left;
@@ -260,28 +369,47 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 101, ../sass/style.scss */
+  /* line 127, ../sass/style.scss */
   .rectangle-7 {
-    width: 32.46753%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: right;
+    width: 69.65085%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: both;
   }
 }
-@media (min-width: 1000px) {
-  /* line 101, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 127, ../sass/style.scss */
   .rectangle-7 {
-    width: 24.27184%;
+    width: 72.17631%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 127, ../sass/style.scss */
+  .rectangle-7 {
+    width: 19.48052%;
     float: left;
     margin-right: -100%;
-    margin-left: 50.48544%;
-    clear: right;
+    margin-left: 45.12987%;
+    clear: both;
   }
 }
 
-@media (min-width: 500px) {
-  /* line 113, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
+.rectangle-8 {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: green;
+}
+@media (min-width: 560px) {
+  /* line 144, ../sass/style.scss */
   .rectangle-8 {
     width: 49.01961%;
     float: right;
@@ -291,28 +419,47 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 113, ../sass/style.scss */
+  /* line 144, ../sass/style.scss */
   .rectangle-8 {
-    width: 32.46753%;
+    width: 29.99105%;
     float: left;
     margin-right: -100%;
-    margin-left: 33.76623%;
-    clear: right;
+    margin-left: 0%;
+    clear: none;
   }
 }
-@media (min-width: 1000px) {
-  /* line 113, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 144, ../sass/style.scss */
   .rectangle-8 {
-    width: 24.27184%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: right;
+    width: 27.54821%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 144, ../sass/style.scss */
+  .rectangle-8 {
+    width: 17.85714%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 65.25974%;
+    clear: none;
   }
 }
 
-@media (min-width: 500px) {
-  /* line 125, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
+.rectangle-9 {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: yellow;
+}
+@media (min-width: 560px) {
+  /* line 161, ../sass/style.scss */
   .rectangle-9 {
     width: 49.01961%;
     float: left;
@@ -322,28 +469,47 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 125, ../sass/style.scss */
+  /* line 161, ../sass/style.scss */
   .rectangle-9 {
-    width: 32.46753%;
+    width: 31.69203%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: right;
+    clear: none;
   }
 }
-@media (min-width: 1000px) {
-  /* line 125, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 161, ../sass/style.scss */
   .rectangle-9 {
-    width: 24.27184%;
+    width: 37.46556%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 161, ../sass/style.scss */
+  .rectangle-9 {
+    width: 21.1039%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
-    clear: right;
+    margin-left: 23.37662%;
+    clear: none;
   }
 }
 
-@media (min-width: 500px) {
-  /* line 137, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
+.rectangle-10 {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: purple;
+}
+@media (min-width: 560px) {
+  /* line 178, ../sass/style.scss */
   .rectangle-10 {
     width: 49.01961%;
     float: right;
@@ -353,53 +519,72 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 137, ../sass/style.scss */
+  /* line 178, ../sass/style.scss */
   .rectangle-10 {
-    width: 32.46753%;
+    width: 67.94987%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: right;
+    clear: none;
   }
 }
-@media (min-width: 1000px) {
-  /* line 137, ../sass/style.scss */
+@media (min-width: 900px) {
+  /* line 178, ../sass/style.scss */
   .rectangle-10 {
-    width: 24.27184%;
+    width: 27.54821%;
     float: left;
     margin-right: -100%;
-    margin-left: 25.24272%;
-    clear: right;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 178, ../sass/style.scss */
+  .rectangle-10 {
+    width: 16.23377%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
   }
 }
 
-@media (min-width: 500px) {
-  /* line 149, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
+.rectangle-11 {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  background-color: white;
+}
+@media (min-width: 700px) {
+  /* line 195, ../sass/style.scss */
   .rectangle-11 {
-    width: 49.01961%;
+    width: 100.0%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 900px) {
+  /* line 195, ../sass/style.scss */
+  .rectangle-11 {
+    width: 34.43526%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 27.82369%;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 195, ../sass/style.scss */
+  .rectangle-11 {
+    width: 22.72727%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: right;
-  }
-}
-@media (min-width: 700px) {
-  /* line 149, ../sass/style.scss */
-  .rectangle-11 {
-    width: 32.46753%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 33.76623%;
-    clear: right;
-  }
-}
-@media (min-width: 1000px) {
-  /* line 149, ../sass/style.scss */
-  .rectangle-11 {
-    width: 24.27184%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 50.48544%;
-    clear: right;
+    clear: none;
   }
 }
