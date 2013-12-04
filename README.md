@@ -103,7 +103,7 @@ Then call the plugin's "fixRows" function on the containers of those targets, pa
 Example Code
 ============
 
-Open test.html in your browser. You will see a responsive grid system brought to you by [Singularity] ([A video] walk through of Singularity). The example goes from a one column, to a two column, to four and five column asymmetric grid respectfully. There are three items in each container that need to line up with other items on the page. These are the title, subtitle, and paragraph. Some of the items are invisible on certain viewports. You can see that these items are in different containers, yet they line up correctly regardless of visibility and number of columns.
+Open test.html in your browser. You will see a responsive grid system brought to you by [Singularity]. [A video] walk through of Singularity. The example goes from a one column, to a two column, to four and five column asymmetric grid respectfully. There are three items in each container that need to line up with other items on the page. These are the title, subtitle, and paragraph. Some of the items are invisible on certain viewports. You can see that these items are in different containers, yet they line up correctly regardless of visibility and number of columns.
 
 [Singularity]: http://singularity.gs/
 [A video]: http://vimeo.com/63509346
