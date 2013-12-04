@@ -34,7 +34,7 @@ body {
   font-size: 16pt;
   text-align: center;
   padding: .5em;
-  margin: 1.5%;
+  margin-bottom: 1.5%;
 }
 
 /* Default settings in case javascript is not turned on */
