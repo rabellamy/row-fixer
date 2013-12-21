@@ -1,0 +1,38 @@
+
+
+//////////////
+// Breakpoint
+//////////////
+
+$breakpoint-1: 560px;
+$breakpoint-2: 700px;
+$breakpoint-3: 900px;
+$breakpoint-4: 1200px;
+
+/////////
+// Grid
+/////////
+$grids: add-grid(2);
+$grids: add-grid(3.35 4.2 2 1.5 at $breakpoint-2);
+$grids: add-grid(4 5 2 3.4 at $breakpoint-3);
+$grids: add-grid(1 1.1 1.2 1.3 1.4 at $breakpoint-4);
+
+$gutters: .04;
+
+
+
+///////////
+// Colors
+///////////
+
+$cs-primary: #0600FF;
+$cs-scheme: 'accented-analogic';
+$cs-hue-offset: 0;
+$cs-brightness-offset: 0;
+$cs-color-model: 'rgb';
+
+$primary: cs-primary();
+$secondary: darken(cs-secondary(), 10%); // too light, darkening this up a bit.
+$tertiary: cs-tertiary();
+$quadrary: cs-quadrary();
+

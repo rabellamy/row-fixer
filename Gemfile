@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+
+gem "sass", "~> 3.3.0.rc.1"
+gem "sass-globbing", "~> 1.1.0"
+gem "compass", "~> 0.13.alpha.7"
+gem "singularitygs", "~> 1.1.2"
+gem "singularity-extras", "~> 0.0.3"
+gem "breakpoint", "~> 2.2.0"
+gem "sassy-math", "~> 1.5"
+gem "toolkit", "~> 1.3.8"
+gem "color-schemer", "~> 0.2.7"
