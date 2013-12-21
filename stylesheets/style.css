@@ -41,7 +41,7 @@ body {
 /* line 16, ../sass/style.scss */
 h1, h3, .inner-div p {
   height: 250px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 /* line 21, ../sass/style.scss */
@@ -56,7 +56,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: purple;
+  background-color: #00d3f9;
 }
 @media (min-width: 560px) {
   /* line 25, ../sass/style.scss */
@@ -106,7 +106,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: purple;
+  background-color: #00c9ed;
 }
 @media (min-width: 560px) {
   /* line 42, ../sass/style.scss */
@@ -156,7 +156,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: purple;
+  background-color: #00badb;
 }
 @media (min-width: 560px) {
   /* line 59, ../sass/style.scss */
@@ -206,7 +206,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: purple;
+  background-color: #00accb;
 }
 @media (min-width: 560px) {
   /* line 76, ../sass/style.scss */
@@ -256,7 +256,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: purple;
+  background-color: #009bb7;
 }
 @media (min-width: 560px) {
   /* line 93, ../sass/style.scss */
@@ -306,7 +306,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: red;
+  background-color: #018ba4;
 }
 @media (min-width: 560px) {
   /* line 110, ../sass/style.scss */
@@ -356,7 +356,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: blue;
+  background-color: #027e95;
 }
 @media (min-width: 560px) {
   /* line 127, ../sass/style.scss */
@@ -406,7 +406,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: green;
+  background-color: #007185;
 }
 @media (min-width: 560px) {
   /* line 144, ../sass/style.scss */
@@ -456,7 +456,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: yellow;
+  background-color: #006679;
 }
 @media (min-width: 560px) {
   /* line 161, ../sass/style.scss */
@@ -506,7 +506,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: purple;
+  background-color: #005b6b;
 }
 @media (min-width: 560px) {
   /* line 178, ../sass/style.scss */
@@ -556,7 +556,7 @@ h1, h3 {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background-color: white;
+  background-color: #004b59;
 }
 @media (min-width: 700px) {
   /* line 195, ../sass/style.scss */
