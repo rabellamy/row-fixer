@@ -38,7 +38,7 @@ But you get this:
     | text                |                                  ---------------------
      ---------------------
 
-In other words, this plugin sets the height of each header to be the height of the tallest header. It then sets the height of each subtitle to be the height of the tallest subtitle, and so on.
+This plugin will set the height of each header to be the height of the tallest header. It then sets the height of each subtitle to be the height of the tallest subtitle, and so on.
 
 But there's more! Your grid may be responsive. It may be 5-column for one viewport, 3-column on another, and stacked on mobile. You wouldn't want each subtitle to have the max height of ALL subtitles. You would want it to have the max height of subtitles IN THE SAME VERTICAL ROW. This plugin detects which are on the same row and adapts!
 
