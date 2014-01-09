@@ -40,7 +40,13 @@ But you get this:
 
 This plugin will set the height of each header to be the height of the tallest header. It then sets the height of each subtitle to be the height of the tallest subtitle, and so on.
 
-But there's more! Your grid may be responsive. It may be 5-column for one viewport, 3-column on another, and stacked on mobile. You wouldn't want each subtitle to have the max height of ALL subtitles. You would want it to have the max height of subtitles IN THE SAME VERTICAL ROW. This plugin detects which are on the same row and adapts!
+So What?
+========
+You may have seen plugins that do this already. I believe I have added a couple of enhancements:
+
+1 - This works for multiple groups elements within a container (title, subtitle, and paragraph in the above example).
+
+2 - This works for responsive grids. Let's say your grid is 5-column for one viewport, 3-column on another, and stacked on mobile. You wouldn't want each subtitle, for example, to have the max height of ALL subtitles. You would want it to have the max height of subtitles IN THE SAME VERTICAL ROW. This plugin detects which are on the same row and adapts.
 
 When Might You Have This Problem?
 =================================
