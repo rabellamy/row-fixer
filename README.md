@@ -38,7 +38,7 @@ But you get this:
     | text                |                                  ---------------------
      ---------------------
 
-This plugin will set the height of each header to be the height of the tallest header. It then sets the height of each subtitle to be the height of the tallest subtitle, and so on.
+In this example. this plugin would set the height of each header to be the height of the tallest header. It then sets the height of each subtitle to be the height of the tallest subtitle, and so on.
 
 So What?
 ========
