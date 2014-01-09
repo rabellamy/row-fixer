@@ -60,7 +60,7 @@ Let's say you try to solve this problem by changing the HTML source order so tha
 The Solution (in a nutshell)
 ============================
 
-In terms of the example at the top of this page, this plugin would go through all of the title elements and find their vertical position. Title elements whose tops are at the same vertical position (plus/minus some small threshold) are considered to belong to same row. The plugin then finds the maximum height of all title elements in that vertical row, and assigns that maximum height to every title in that row so that they all now begin and end at the same place. It then does the same for the subtitle elements in that row, and then the paragraphs. Then it will figure out which elements are on the second vertical row and repeat the process until all rows are done.
+In terms of the example at the top of this page, this plugin would go through all of the header elements and find their vertical position. Header elements whose tops are at the same vertical position (plus/minus some small threshold) are considered to belong to same row. The plugin then finds the maximum height of all header elements in that vertical row, and assigns that maximum height to every header in that row so that they all now begin and end at the same place. It then does the same for the subtitle elements in that vertical row, and then the paragraphs. Then it will figure out which elements are on the second vertical row and repeat the process until all rows are done.
 
 Example Usage
 =============
