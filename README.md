@@ -44,7 +44,7 @@ So What?
 ========
 You may have seen plugins that do this already. I believe I have added a couple of enhancements:
 
-1 - This works for multiple groups elements within a container (title, subtitle, and paragraph in the above example).
+1 - This works for multiple selectors. Setting the max height to just one selector across containers (like a title) is simple. Handling multiple selectors is a little bit trickier.
 
 2 - This works for responsive grids. Let's say your grid is 5-column for one viewport, 3-column on another, and stacked on mobile. You wouldn't want each subtitle, for example, to have the max height of ALL subtitles. You would want it to have the max height of subtitles IN THE SAME VERTICAL ROW. This plugin detects which are on the same row and adapts.
 
