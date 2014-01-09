@@ -60,29 +60,7 @@ Let's say you try to solve this problem by changing the HTML source order so tha
 The Solution (in a nutshell)
 ============================
 
-- Using JavaScript, figure out which elements belong on the same row.
-- Find the height of the biggest one in the row.
-- Set that max height to all of the elements in that row.
-
-Let's say you have a bunch of container elements with class "my-container" and inside those containers are h1's and p's that you want aligned with each other:
-
-    <div class="my-container">
-        <h1> Title </h1>
-        <p>
-            Content Content Content Content Content Content
-        </p>
-    </div>
-    <div class="my-container">
-        <h1> Another Title </h1>
-        <p>
-            Content Content Content Content Content Content
-            Content Content Content Content Content Content
-            Content Content Content Content Content Content
-            Content Content Content Content Content Content
-        </p>
-    </div>
-
-This plugin will go through all of those h1 elements and find their vertical position. h1 elements whose tops are at the same vertical position (plus/minus some small threshold) are considered to belong to same row. The plugin then finds the maximum height of all h1 tags in that row, and assigns that maximum height to every h1 in that row so that they all now begin and end at the same place. It then does the same for the p elements in that row. Then it will figure out the next row until they are all done.
+In terms of the example at the top of this page, this plugin would go through all of the title elements and find their vertical position. Title elements whose tops are at the same vertical position (plus/minus some small threshold) are considered to belong to same row. The plugin then finds the maximum height of all title elements in that vertical row, and assigns that maximum height to every title in that row so that they all now begin and end at the same place. It then does the same for the subtitle elements in that row, and then the paragraphs. Then it will figure out which elements are on the second vertical row and repeat the process until all rows are done.
 
 Example Usage
 =============
