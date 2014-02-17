@@ -46,7 +46,7 @@ You may have seen plugins that do this already. I believe I have added a couple 
 
 1 - This works for responsive grids. Let's say your grid is 5-column for one viewport, 3-column on another, and stacked on mobile. You wouldn't want each subtitle, for example, to have the max height of ALL subtitles. You would want it to have the max height of subtitles IN THE SAME VERTICAL ROW. This plugin detects which are on the same row and adapts.
 
-2 - This works for multiple selectors inside a container. Setting the max height to just one selector (like a title) across several containers is simple. Handling multiple selectors on a responsive grid across several containers is a little bit trickier.
+2 - This works for multiple selectors inside a container. Setting the max height to just one selector (like a title) across several containers is fairly simple. Handling multiple selectors on a responsive grid across several containers is a little bit trickier. This is because as you assign heights to one group of elements (like all titles on one vertical row) the other groups of elements (subtitles, paragraphs, etc.) move around, and you must take this into account for everything to work out correctly.
 
 When Might You Have This Problem?
 =================================
