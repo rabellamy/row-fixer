@@ -53,7 +53,7 @@ h1, h3 {
  @include breakpoint($breakpoint-4) {
     @include grid-span(1, 1);
   }
-  background-color: #00c9ed;
+  background-color: lighten(#ebce70, 5%);
 }
 
 .rectangle-3 {
@@ -70,7 +70,7 @@ h1, h3 {
   @include breakpoint($breakpoint-4) {
     @include grid-span(1, 5);
   }
-  background-color: #00badb;
+  background-color: #ff9e6d;
 }
 
 .rectangle-4 {
@@ -87,7 +87,7 @@ h1, h3 {
   @include breakpoint($breakpoint-4) {
     @include grid-span(1, 2);
   }
-  background-color: #00accb;
+  background-color: #59b480;
 }
 
 .rectangle-5 {
@@ -121,7 +121,7 @@ h1, h3 {
   @include breakpoint($breakpoint-4) {
     @include grid-span(5, 1, $options: 'both');
   }
-  background-color: #018ba4;
+  background-color: lighten(#3b5998, 10%);
 }
 
 .rectangle-7 {
@@ -138,7 +138,7 @@ h1, h3 {
   @include breakpoint($breakpoint-4) {
     @include grid-span(1, 3, (1.4 1.3 1.2 1.1 1), $options: 'both');
   }
-  background-color: #027e95;
+  background-color: lighten(#ed1c16, 20%);
 }
 
 .rectangle-8 {
@@ -155,7 +155,7 @@ h1, h3 {
   @include breakpoint($breakpoint-4) {
     @include grid-span(1, 4, (1.4 1.3 1.2 1.1 1));
   }
-  background-color: #007185;
+  background-color: lighten(#fe7722, 10%);
 }
 
 .rectangle-9 {
@@ -172,7 +172,7 @@ h1, h3 {
   @include breakpoint($breakpoint-4) {
     @include grid-span(1, 2, (1.4 1.3 1.2 1.1 1));
   }
-  background-color: #006679;
+  background-color: lighten(#006679, 10%);
 }
 
 .rectangle-10 {
@@ -189,7 +189,7 @@ h1, h3 {
   @include breakpoint($breakpoint-4) {
     @include grid-span(1, 5, (1.4 1.3 1.2 1.1 1));
   }
-  background-color: #005b6b;
+  background-color: darken(#f2dede, 10%);
 }
 
 .rectangle-11 {
@@ -203,5 +203,5 @@ h1, h3 {
   @include breakpoint($breakpoint-4) {
     @include grid-span(1, 1, (1.4 1.3 1.2 1.1 1));
   }
-  background-color: #004b59;
+  background-color: darken(#dff0d8, 10%);
 }
