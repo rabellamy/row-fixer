@@ -23,7 +23,7 @@ h1, h3 {
 }
 
 .rectangle-1 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 1, $options: 'right');
   }
@@ -40,7 +40,7 @@ h1, h3 {
 }
 
 .rectangle-2 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 2, $options: 'right');
   }
@@ -57,7 +57,7 @@ h1, h3 {
 }
 
 .rectangle-3 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 1, $options: 'both');
   }
@@ -74,7 +74,7 @@ h1, h3 {
 }
 
 .rectangle-4 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 2, $options: 'right');
   }
@@ -91,7 +91,7 @@ h1, h3 {
 }
 
 .rectangle-5 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 1, $options: 'right');
   }
@@ -108,7 +108,7 @@ h1, h3 {
 }
 
 .rectangle-6 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 2, $options: 'right');
   }
@@ -125,7 +125,7 @@ h1, h3 {
 }
 
 .rectangle-7 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 1, $options: 'right');
   }
@@ -142,7 +142,7 @@ h1, h3 {
 }
 
 .rectangle-8 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 2, $options: 'right');
   }
@@ -159,7 +159,7 @@ h1, h3 {
 }
 
 .rectangle-9 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 1, $options: 'right');
   }
@@ -176,7 +176,7 @@ h1, h3 {
 }
 
 .rectangle-10 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
   @include breakpoint($breakpoint-1) {
     @include grid-span(1, 2, $options: 'right');
   }
@@ -193,7 +193,10 @@ h1, h3 {
 }
 
 .rectangle-11 {
-  @include grid-span(2, 1);
+  // @include grid-span(2, 1);
+  @include breakpoint($breakpoint-1) {
+    @include grid-span(2, 1, $options: 'right');
+  }
   @include breakpoint($breakpoint-2) {
     @include grid-span(4, 1);
   }

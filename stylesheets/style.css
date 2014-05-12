@@ -1,4 +1,4 @@
-/* line 34, ../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_box-sizing.scss */
+/* line 34, ../../../.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_box-sizing.scss */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -6,7 +6,7 @@
   *behavior: url('/stylesheets/../behaviors/box-sizing/boxsizing.php');
 }
 
-/* line 36, ../../../../../Library/Ruby/Gems/2.0.0/gems/toolkit-1.3.8/stylesheets/toolkit/_box-sizing.scss */
+/* line 36, ../../../.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/toolkit-1.3.8/stylesheets/toolkit/_box-sizing.scss */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -14,7 +14,7 @@
   *behavior: url('/stylesheets/../behaviors/box-sizing/boxsizing.php');
 }
 
-/* line 4, ../../../../../Library/Ruby/Gems/2.0.0/gems/toolkit-1.3.8/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, ../../../.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/toolkit-1.3.8/stylesheets/toolkit/_fluid-media.scss */
 img, video {
   max-width: 100%;
   height: auto;
@@ -51,11 +51,6 @@ h1, h3 {
 
 /* line 25, ../sass/style.scss */
 .rectangle-1 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #00d3f9;
 }
 @media (min-width: 560px) {
@@ -101,11 +96,6 @@ h1, h3 {
 
 /* line 42, ../sass/style.scss */
 .rectangle-2 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #eed686;
 }
 @media (min-width: 560px) {
@@ -151,11 +141,6 @@ h1, h3 {
 
 /* line 59, ../sass/style.scss */
 .rectangle-3 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #ff9e6d;
 }
 @media (min-width: 560px) {
@@ -201,11 +186,6 @@ h1, h3 {
 
 /* line 76, ../sass/style.scss */
 .rectangle-4 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #59b480;
 }
 @media (min-width: 560px) {
@@ -251,11 +231,6 @@ h1, h3 {
 
 /* line 93, ../sass/style.scss */
 .rectangle-5 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #009bb7;
 }
 @media (min-width: 560px) {
@@ -301,11 +276,6 @@ h1, h3 {
 
 /* line 110, ../sass/style.scss */
 .rectangle-6 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #4c70ba;
 }
 @media (min-width: 560px) {
@@ -351,11 +321,6 @@ h1, h3 {
 
 /* line 127, ../sass/style.scss */
 .rectangle-7 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #f47875;
 }
 @media (min-width: 560px) {
@@ -401,11 +366,6 @@ h1, h3 {
 
 /* line 144, ../sass/style.scss */
 .rectangle-8 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #fe9655;
 }
 @media (min-width: 560px) {
@@ -451,11 +411,6 @@ h1, h3 {
 
 /* line 161, ../sass/style.scss */
 .rectangle-9 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #0091ac;
 }
 @media (min-width: 560px) {
@@ -501,11 +456,6 @@ h1, h3 {
 
 /* line 178, ../sass/style.scss */
 .rectangle-10 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #e4b9b9;
 }
 @media (min-width: 560px) {
@@ -551,12 +501,17 @@ h1, h3 {
 
 /* line 195, ../sass/style.scss */
 .rectangle-11 {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: #c1e2b3;
+}
+@media (min-width: 560px) {
+  /* line 195, ../sass/style.scss */
+  .rectangle-11 {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: right;
+  }
 }
 @media (min-width: 700px) {
   /* line 195, ../sass/style.scss */
