@@ -94,12 +94,12 @@ h1, h3 {
   }
 }
 
-/* line 42, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .rectangle-2 {
   background-color: #eed686;
 }
 @media (min-width: 560px) {
-  /* line 42, ../sass/style.scss */
+  /* line 41, ../sass/style.scss */
   .rectangle-2 {
     width: 49.01961%;
     float: right;
@@ -109,7 +109,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 42, ../sass/style.scss */
+  /* line 41, ../sass/style.scss */
   .rectangle-2 {
     width: 67.94987%;
     float: left;
@@ -119,7 +119,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 42, ../sass/style.scss */
+  /* line 41, ../sass/style.scss */
   .rectangle-2 {
     width: 48.48485%;
     float: left;
@@ -129,7 +129,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 42, ../sass/style.scss */
+  /* line 41, ../sass/style.scss */
   .rectangle-2 {
     width: 16.23377%;
     float: left;
@@ -139,12 +139,12 @@ h1, h3 {
   }
 }
 
-/* line 59, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .rectangle-3 {
   background-color: #ff9e6d;
 }
 @media (min-width: 560px) {
-  /* line 59, ../sass/style.scss */
+  /* line 57, ../sass/style.scss */
   .rectangle-3 {
     width: 49.01961%;
     float: left;
@@ -154,7 +154,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 59, ../sass/style.scss */
+  /* line 57, ../sass/style.scss */
   .rectangle-3 {
     width: 69.65085%;
     float: right;
@@ -164,7 +164,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 59, ../sass/style.scss */
+  /* line 57, ../sass/style.scss */
   .rectangle-3 {
     width: 27.54821%;
     float: left;
@@ -174,7 +174,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 59, ../sass/style.scss */
+  /* line 57, ../sass/style.scss */
   .rectangle-3 {
     width: 22.72727%;
     float: right;
@@ -184,12 +184,12 @@ h1, h3 {
   }
 }
 
-/* line 76, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .rectangle-4 {
   background-color: #59b480;
 }
 @media (min-width: 560px) {
-  /* line 76, ../sass/style.scss */
+  /* line 73, ../sass/style.scss */
   .rectangle-4 {
     width: 49.01961%;
     float: right;
@@ -199,7 +199,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 76, ../sass/style.scss */
+  /* line 73, ../sass/style.scss */
   .rectangle-4 {
     width: 29.99105%;
     float: left;
@@ -209,7 +209,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 76, ../sass/style.scss */
+  /* line 73, ../sass/style.scss */
   .rectangle-4 {
     width: 72.17631%;
     float: right;
@@ -219,7 +219,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 76, ../sass/style.scss */
+  /* line 73, ../sass/style.scss */
   .rectangle-4 {
     width: 17.85714%;
     float: left;
@@ -229,12 +229,12 @@ h1, h3 {
   }
 }
 
-/* line 93, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .rectangle-5 {
   background-color: #009bb7;
 }
 @media (min-width: 560px) {
-  /* line 93, ../sass/style.scss */
+  /* line 89, ../sass/style.scss */
   .rectangle-5 {
     width: 49.01961%;
     float: left;
@@ -244,7 +244,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 93, ../sass/style.scss */
+  /* line 89, ../sass/style.scss */
   .rectangle-5 {
     width: 31.69203%;
     float: right;
@@ -254,7 +254,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 93, ../sass/style.scss */
+  /* line 89, ../sass/style.scss */
   .rectangle-5 {
     width: 27.54821%;
     float: left;
@@ -264,7 +264,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 93, ../sass/style.scss */
+  /* line 89, ../sass/style.scss */
   .rectangle-5 {
     width: 21.1039%;
     float: left;
@@ -274,12 +274,12 @@ h1, h3 {
   }
 }
 
-/* line 110, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .rectangle-6 {
   background-color: #4c70ba;
 }
 @media (min-width: 560px) {
-  /* line 110, ../sass/style.scss */
+  /* line 105, ../sass/style.scss */
   .rectangle-6 {
     width: 49.01961%;
     float: right;
@@ -289,7 +289,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 110, ../sass/style.scss */
+  /* line 105, ../sass/style.scss */
   .rectangle-6 {
     width: 67.94987%;
     float: left;
@@ -299,7 +299,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 110, ../sass/style.scss */
+  /* line 105, ../sass/style.scss */
   .rectangle-6 {
     width: 100.0%;
     float: right;
@@ -309,7 +309,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 110, ../sass/style.scss */
+  /* line 105, ../sass/style.scss */
   .rectangle-6 {
     width: 100%;
     float: right;
@@ -319,12 +319,12 @@ h1, h3 {
   }
 }
 
-/* line 127, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .rectangle-7 {
   background-color: #f47875;
 }
 @media (min-width: 560px) {
-  /* line 127, ../sass/style.scss */
+  /* line 121, ../sass/style.scss */
   .rectangle-7 {
     width: 49.01961%;
     float: left;
@@ -334,7 +334,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 127, ../sass/style.scss */
+  /* line 121, ../sass/style.scss */
   .rectangle-7 {
     width: 69.65085%;
     float: right;
@@ -344,7 +344,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 127, ../sass/style.scss */
+  /* line 121, ../sass/style.scss */
   .rectangle-7 {
     width: 72.17631%;
     float: right;
@@ -354,7 +354,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 127, ../sass/style.scss */
+  /* line 121, ../sass/style.scss */
   .rectangle-7 {
     width: 19.48052%;
     float: left;
@@ -364,12 +364,12 @@ h1, h3 {
   }
 }
 
-/* line 144, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .rectangle-8 {
   background-color: #fe9655;
 }
 @media (min-width: 560px) {
-  /* line 144, ../sass/style.scss */
+  /* line 137, ../sass/style.scss */
   .rectangle-8 {
     width: 49.01961%;
     float: right;
@@ -379,7 +379,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 144, ../sass/style.scss */
+  /* line 137, ../sass/style.scss */
   .rectangle-8 {
     width: 29.99105%;
     float: left;
@@ -389,7 +389,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 144, ../sass/style.scss */
+  /* line 137, ../sass/style.scss */
   .rectangle-8 {
     width: 27.54821%;
     float: left;
@@ -399,7 +399,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 144, ../sass/style.scss */
+  /* line 137, ../sass/style.scss */
   .rectangle-8 {
     width: 17.85714%;
     float: left;
@@ -409,12 +409,12 @@ h1, h3 {
   }
 }
 
-/* line 161, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .rectangle-9 {
   background-color: #0091ac;
 }
 @media (min-width: 560px) {
-  /* line 161, ../sass/style.scss */
+  /* line 153, ../sass/style.scss */
   .rectangle-9 {
     width: 49.01961%;
     float: left;
@@ -424,7 +424,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 161, ../sass/style.scss */
+  /* line 153, ../sass/style.scss */
   .rectangle-9 {
     width: 31.69203%;
     float: right;
@@ -434,7 +434,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 161, ../sass/style.scss */
+  /* line 153, ../sass/style.scss */
   .rectangle-9 {
     width: 37.46556%;
     float: right;
@@ -444,7 +444,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 161, ../sass/style.scss */
+  /* line 153, ../sass/style.scss */
   .rectangle-9 {
     width: 21.1039%;
     float: left;
@@ -454,12 +454,12 @@ h1, h3 {
   }
 }
 
-/* line 178, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .rectangle-10 {
   background-color: #e4b9b9;
 }
 @media (min-width: 560px) {
-  /* line 178, ../sass/style.scss */
+  /* line 169, ../sass/style.scss */
   .rectangle-10 {
     width: 49.01961%;
     float: right;
@@ -469,7 +469,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 178, ../sass/style.scss */
+  /* line 169, ../sass/style.scss */
   .rectangle-10 {
     width: 67.94987%;
     float: left;
@@ -479,7 +479,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 178, ../sass/style.scss */
+  /* line 169, ../sass/style.scss */
   .rectangle-10 {
     width: 27.54821%;
     float: left;
@@ -489,7 +489,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 178, ../sass/style.scss */
+  /* line 169, ../sass/style.scss */
   .rectangle-10 {
     width: 16.23377%;
     float: right;
@@ -499,12 +499,12 @@ h1, h3 {
   }
 }
 
-/* line 195, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .rectangle-11 {
   background-color: #c1e2b3;
 }
 @media (min-width: 560px) {
-  /* line 195, ../sass/style.scss */
+  /* line 185, ../sass/style.scss */
   .rectangle-11 {
     width: 100%;
     float: right;
@@ -514,7 +514,7 @@ h1, h3 {
   }
 }
 @media (min-width: 700px) {
-  /* line 195, ../sass/style.scss */
+  /* line 185, ../sass/style.scss */
   .rectangle-11 {
     width: 100.0%;
     float: right;
@@ -524,7 +524,7 @@ h1, h3 {
   }
 }
 @media (min-width: 900px) {
-  /* line 195, ../sass/style.scss */
+  /* line 185, ../sass/style.scss */
   .rectangle-11 {
     width: 34.43526%;
     float: left;
@@ -534,7 +534,7 @@ h1, h3 {
   }
 }
 @media (min-width: 1200px) {
-  /* line 195, ../sass/style.scss */
+  /* line 185, ../sass/style.scss */
   .rectangle-11 {
     width: 22.72727%;
     float: left;
